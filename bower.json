@@ -1,0 +1,20 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "authors": [
+    "Sergey"
+  ],
+  "description": "chat",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "chat"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "modernizr": "~2.8.3",
+    "handlebars": "^4.0.5"
+  }
+}
