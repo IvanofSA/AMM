@@ -1,0 +1,59 @@
+.container{
+  @include container-fixed();
+}
+.row{
+  @include make-row();
+}
+.logo__wrap{
+  @include make-lg-column-offset(1);
+  @include make-lg-column( 2 );
+}
+.navigation{
+  @include make-lg-column-offset(1);
+  @include make-lg-column( 7 );
+}
+.header{
+  min-height: 70px;
+  line-height: 70px;
+  background: #ccc;
+  padding: 15px 0;
+}
+.logo{
+  display: block;
+  width: 189px;
+  height: 49px;
+  padding-top: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo__img{
+  max-width: 100%;
+  height: auto;
+}
+.nav__list{
+  text-align: right;
+}
+.nav__item{
+  display: inline-block;
+  margin-left: 15px;
+  &:first-child{
+    margin-left: 0;
+  }
+}
+.nav__link{
+  text-decoration: none;
+  font-family: $medium;
+  font-size: 1.2em;
+  color: #fff;
+  &:hover{
+    color: $orange;
+    text-decoration: underline;
+  }
+  &:focus{
+    color: $orange;
+    text-decoration: underline;
+  }
+  &:active {
+    color: $orange;
+  }
+}

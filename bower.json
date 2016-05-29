@@ -1,20 +1,24 @@
 {
-  "name": "chat",
+  "name": "amm",
   "version": "0.0.0",
   "authors": [
     "Sergey"
   ],
-  "description": "chat",
+  "description": "",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "chat"
+    "amm"
   ],
   "license": "MIT",
   "dependencies": {
     "normalize.css": "~3.0.3",
-    "modernizr": "~2.8.3",
-    "handlebars": "^4.0.5"
+    "jquery": "~2.1.4",
+    "html5shiv": "~3.7.3",
+    "slick-carousel": "^1.6.0"
+  },
+  "devDependencies": {
+    "mixitup": "^2.1.11"
   }
 }

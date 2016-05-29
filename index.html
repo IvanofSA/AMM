@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AMM</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../images/favicon/favicon.ico" type="icon/x-icon">
+    <link rel="icon" href="../images/favicon/favicon.ico" type="icon/x-icon">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <!-- build:css css/vendor.min.css -->
+    <!-- bower:css-->
+    <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
+    <link rel="stylesheet" href="/bower/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="/bower/slick-carousel/slick/slick.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+    <!-- build:js js/modernizr.min.js -->
+    <script src="bower/html5shiv/dist/html5shiv.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loader_inner"></div>
+    </div>
+    <div class="wrap">
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="logo__wrap">
+              <a href="#" class="logo"> <img src="images/logo/h-logo.png" alt="Логотип компании АММ" class="logo__img"></a>
+            </div><button class="toggle_mnu"> <span class="sandwich"><span class="sw-topper"></span><span class="sw-bottom"></span><span class="sw-footer"></span></span></button>
+            <nav class="top_mnu">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#advertising" class="nav__link active">Главная</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Наши лендинги  </a></li>
+                <li class="nav__item"><a href="#place" class="nav__link">Настройка рекламы </a></li>
+                <li class="nav__item"><a href="#price" class="nav__link">Наши цены</a></li>
+                <li class="nav__item"><a href="#address" class="nav__link">Контакты</a></li>
+              </ul>
+            </nav>
+            <nav class="navigation">
+              <ul class="nav__list">
+                <li class="nav__item"><a href="#advertising" class="nav__link active">Главная</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Наши лендинги  </a></li>
+                <li class="nav__item"><a href="#place" class="nav__link">Настройка рекламы </a></li>
+                <li class="nav__item"><a href="#price" class="nav__link">Наши цены</a></li>
+                <li class="nav__item"><a href="#address" class="nav__link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section id="advertising" class="advertising">
+        <ul class="carusel">
+          <li class="carusel__item"><img src="http://lorempixel.com/800/400/sports" alt="alt"></li>
+          <li class="carusel__item"><img src="http://lorempixel.com/800/400/food" alt="alt"></li>
+          <li class="carusel__item"><img src="http://lorempixel.com/800/400/cats" alt="alt"></li>
+        </ul>
+        <div class="advertising__info">
+          <p>Сделаем отличный лендинг за 3 дня!</p>
+          <h3>Качественная разработка рекламного лендинга</h3><a href="tel:+7928229933" class="phone">+7(812)311-99-99</a><button class="btn">Заказать рекламный лендинг</button></div>
+      </section>
+      <section id="work" class="work">
+        <div class="container">
+          <div class="row">
+            <h2>Наши недавние проекты </h2>
+            <div class="filter_contols"><button data-filter="all" class="filter active">Все</button><button data-filter=".str-comp" class="filter">Строительные компани</button><button data-filter=".strh-comp" class="filter">Страховые копмании</button><button data-filter=".rek-agen"
+                class="filter">Рекламные агенства</button><button data-filter=".other-comp" class="filter">Еще какие то агенства</button></div>
+            <div class="gallery__list filter">
+              <div class="gallery__item mix str-comp">
+                <a href="images/fon3b.png" title="лендинг 1"><img src="images/fon3b.png" alt="alt"></a>
+              </div>
+              <div class="gallery__item mix strh-comp">
+                <a href="images/fon3b.png" title="Лендинг 2"><img src="images/fon3b.png" alt="alt"></a>
+              </div>
+              <div class="gallery__item mix rek-agen">
+                <a href="images/fon3b.png" title="Лендинг 3"><img src="images/fon3b.png" alt="alt"></a>
+              </div>
+              <div class="gallery__item mix rek-agen">
+                <a href="images/fon3b.png" title="Лендинг 4"><img src="images/fon3b.png" alt="alt"></a>
+              </div>
+              <div class="gallery__item mix other-comp">
+                <a href="images/fon3b.png" title="Лендинг 5"><img src="images/fon3b.png" alt="alt"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="place" class="place">
+        <div class="container">
+          <div class="row">
+            <div class="place__wrap">
+              <div class="place__info">
+                <h2>Настройка рекламы </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium error, labore nisi vitae amet nesciunt a nobis aut accusamus odio iusto aperiam itaque quod provident officiis, cupiditate quia cumque, fuga distinctio. Quidem earum
+                  dolore dolorum velit fugiat pariatur commodi ipsum aspernatur quis aliquid, repudiandae, animi aliquam. Quas illo aliquam pariatur!</p>
+                <div class="h3">Рекламные площадки</div>
+                <ul class="place__list">
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                  <li class="place__item"><img src="//lorempixel.com/175/175/sports/" alt="alt"></li>
+                </ul><button class="btn btn-place">Заказать настройку рекламы </button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="price" class="price">
+        <div class="container">
+          <div class="row">
+            <div class="text__wrap">
+              <h2>Наши цены</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloribus iste nam illum, vel eius beatae aspernatur amet commodi labore quo tempora porro ut. Sit consequatur esse cum maiores deleniti fugit quod at, laboriosam sint
+                ducimus reiciendis, hic incidunt in corrupti fuga. Delectus nam repellendus veritatis est cupiditate facere qui.</p>
+            </div>
+            <ul class="price__list">
+              <li class="price__item"> <img src="//lorempixel.com/1175/1175/sports/" alt="alt">
+                <p>Лендинг строго по шаблону</p>
+                <ul class="price__list-info">
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                </ul>
+                <p class="price__info">от 20000 рублей</p>
+              </li>
+              <li class="price__item"> <img src="//lorempixel.com/1175/1175/sports/" alt="alt">
+                <p>Лендинг строго по шаблону</p>
+                <ul class="price__list-info">
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                </ul>
+                <p class="price__info">от 20000 рублей</p>
+              </li>
+              <li class="price__item"> <img src="//lorempixel.com/1175/1175/sports/" alt="alt">
+                <p>Лендинг строго по шаблону</p>
+                <ul class="price__list-info">
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                </ul>
+                <p class="price__info">от 20000 рублей</p>
+              </li>
+              <li class="price__item"> <img src="//lorempixel.com/1175/1175/sports/" alt="alt">
+                <p>Лендинг строго по шаблону</p>
+                <ul class="price__list-info">
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                </ul>
+                <p class="price__info">от 20000 рублей</p>
+              </li>
+              <li class="price__item"> <img src="//lorempixel.com/1175/1175/sports/" alt="alt">
+                <p>Лендинг строго по шаблону</p>
+                <ul class="price__list-info">
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                  <li class="price__item-info">Какая то информация</li>
+                </ul>
+                <p class="price__info">от 20000 рублей</p>
+              </li>
+            </ul><button class="btn btn__price">Заказать лендинг</button></div>
+        </div>
+      </section>
+          <section id="address" class="address">
+            <div class="container">
+              <div class="row">
+                <div class="text__wrap">
+                  <h2>Наши контакты</h2></div>
+                <div class="map__wrap">
+                  <div id="map"></div><a href="tel:+7928229933" class="phone">+7(812)311-99-99</a><address class="address__info">194044 Санкт-Петербург Чугунная ул. д.14, лит Р, ОСК "АРГО" оф. 252</address></div>
+                <div class="form__wrap">
+                  <p> Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Приставка парадигматическая его коварный подпоясал океана рыбного заманивший рукописи не, заголовок ведущими ручеек до пунктуация свое рукопись дорогу
+                    предложения на берегу безорфографичный о решила заглавных, силуэт обеспечивает. Предупредила, деревни алфавит точках. </p>
+                  <form name="input" action="/submit/form" method="POST" class="sendForm">
+                    <!-- - Hidden input send form--><input type="hidden" name="project_name" value="Название сайта"><input type="hidden" name="admin_email" value="poshelya@gmail.com"><input type="hidden" name="form_subject" value="Заявка на лендинг">
+                    <!-- - End Hidden input send form--><input type="text" name="Name" placeholder="Ваше Имя" class="inp"><input type="email" name="Email" placeholder="Ваш Email" class="inp"><input type="tel" name="telephone" placeholder="Ваш телефон" class="inp inp__phone"><textarea rows="5"
+                      cols="45" name="message" placeholder="Ваше сообщение" class="inp inp__area"></textarea><input type="reset" value="Очистить" class="btn__clear"><input type="submit" value="Отправить" class="btn__send"></form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="footer__wrap"><span>Пионер-WEB2016</span><a href="#" class="up__scroll">Наверх </a></div>
+              </div>
+            </div>
+          </footer>
+          <div class="popup">
+            <div class="b-close">X</div>
+            <div class="h2">Закать лендинг </div>
+            <form name="input" action="/submit/form" class="sendForm">
+              <!-- - Hidden input send form--><input type="hidden" name="project_name" value="Название сайта"><input type="hidden" name="admin_email" value="poshelya@gmail.com"><input type="hidden" name="form_subject" value="Заявка на лендинг">
+              <!-- - End Hidden input send form--><input type="text" name="Name" placeholder="Ваше Имя" class="inp"><input type="email" name="Email" placeholder="Ваш Email" class="inp"><input type="tel" name="telephone" placeholder="Ваш телефон" class="inp inp__phone"><textarea rows="5" cols="45"
+                name="message" placeholder="Ваше сообщение" class="inp inp__area"></textarea><input type="reset" value="Очистить" class="btn__clear"><input type="submit" value="Отправить" class="btn__send"></form>
+          </div>
+        </div>
+    <!-- build:js js/vendor.js -->
+    <!--bower:js-->
+    <script src="/bower/jquery/dist/jquery.js"></script>
+    <script src="/bower/html5shiv/dist/html5shiv.js"></script>
+    <script src="/bower/slick-carousel/slick/slick.js"></script>
+    <script src="/bower/mixitup/src/jquery.mixItup.js"></script>
+    <!--endbower-->
+    <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script src="js/bPopup.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="js/mask.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+  </body>
+
+</html>

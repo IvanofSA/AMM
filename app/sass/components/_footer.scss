@@ -1,0 +1,18 @@
+.footer{
+  min-height: 30px;
+  line-height: 30px;
+  background: #ccc;
+  padding: 15px 0;
+}
+.footer__wrap{
+  @include make-lg-column-offset(1);
+  @include make-lg-column( 10 );
+  padding-left: 40px;
+}
+.up__scroll{
+  float: right;
+  text-decoration: none;
+  font-family: $medium;
+  font-size: 1.3em;
+  color: $orange;
+}

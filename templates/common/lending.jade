@@ -1,0 +1,192 @@
+.header
+  .container
+    .row
+      .logo__wrap
+        a(href="#" class="logo") 
+          img(src="images/logo/h-logo.png" alt="Логотип компании АММ" class="logo__img")
+      button.toggle_mnu
+        span.sandwich
+          span.sw-topper
+          span.sw-bottom
+          span.sw-footer
+      nav.top_mnu
+        ul.nav__list
+          li.nav__item
+            a(href="#advertising" class="nav__link") Главная
+          li.nav__item
+            a(href="#work" class="nav__link") Наши лендинги
+          li.nav__item
+            a(href="#place" class="nav__link") Настройка рекламы
+          li.nav__item
+            a(href="#price" class="nav__link") Наши цены
+          li.nav__item
+            a(href="#address" class="nav__link") Контакты
+      nav.navigation
+        ul.nav__list
+          li.nav__item
+            a(href="#advertising" class="nav__link") Главная
+          li.nav__item
+            a(href="#work" class="nav__link") Наши лендинги
+          li.nav__item
+            a(href="#place" class="nav__link") Настройка рекламы
+          li.nav__item
+            a(href="#price" class="nav__link") Наши цены
+          li.nav__item
+            a(href="#address" class="nav__link") Контакты
+section(id="advertising" class="advertising")
+    ul.carusel
+        li.carusel__item
+            img(src="http://lorempixel.com/800/400/sports" alt="alt")
+        li.carusel__item
+            img(src="http://lorempixel.com/800/400/sports" alt="alt")
+        li.carusel__item
+            img(src="http://lorempixel.com/800/400/sports" alt="alt")
+    .advertising__info
+        p Сделаем отличный лендинг за 3 дня!
+        h3 Качественная разработка рекламного лендинга
+        a(href="tel:+7928229933" class="phone") +7(812)311-99-99
+        button.btn Заказать рекламный лендинг
+section(id="work" class="work")
+    .container
+        .row
+          .text__wrap
+            h2 Наши недавние проекты
+            .filter_contols
+                button(data-filter="all" class="filter active") Все
+                button(data-filter=".str-comp" class="filter") Строительные компани 
+                button(data-filter=".strh-comp" class="filter") Строительные компани
+                button(data-filter=".rek-agen" class="filter") Строительные компани
+                button(data-filter=".other-comp" class="filter") Строительные компани
+          .gallery__list.filter
+              .gallery__item.mix.str-comp
+                  a(href="http://lorempixel.com/400/600/cats" title="лендинг 1")
+                      img(src="http://lorempixel.com/400/600/cats" alt="alt")
+              .gallery__item.mix.strh-comp
+                  a(href="http://lorempixel.com/400/600/cats" title="лендинг 1")
+                      img(src="http://lorempixel.com/400/600/cats" alt="alt")
+              .gallery__item.mix.rek-agen
+                  a(href="http://lorempixel.com/400/600/cats" title="лендинг 1")
+                      img(src="http://lorempixel.com/400/600/cats" alt="alt")
+              .gallery__item.mix.str-comp
+                  a(href="http://lorempixel.com/400/600/cats" title="лендинг 1")
+                      img(src="http://lorempixel.com/400/600/cats" alt="alt")
+              .gallery__item.mix.other-comp
+                  a(href="http://lorempixel.com/400/600/cats" title="лендинг 1")
+                      img(src="http://lorempixel.com/400/600/cats" alt="alt")
+section(id="place" class="place")
+    .container
+        .row
+            .place__wrap
+                .place__info
+                    h2 Настройка рекламы
+                    p borem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium error, labore nisi vitae amet nesciunt a nobis aut accusamus odio iusto aperiam itaque quod provident officiis, cupiditate quia cumque, fuga distinctio. Quidem earumdolore dolorum velit fugiat pariatur commodi ipsum aspernatur quis aliquid, repudiandae, animi aliquam. Quas illo aliquam pariatur
+                    h3 Рекламные площадки
+                    ul.place__list
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                        li.place__item
+                            img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                    button.btn.btn-place Заказать настройку рекламы
+section(id="price" class="price")
+    .container
+        .row
+          .text__wrap
+                h2 Наши цены
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium doloribus iste nam illum, vel eius beatae aspernatur amet commodi labore quo tempora porro ut. Sit consequatur esse cum maiores deleniti fugit quod at, laboriosam sint
+          ul.price__list
+              li.price__item
+                  img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                  p Лендинг строго по шаблону
+                  ul.price__list-info
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                  p.price__info от 20000 рублей
+              li.price__item
+                  img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                  p Лендинг строго по шаблону
+                  ul.price__list-info
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                  p.price__info от 20000 рублей
+              li.price__item
+                  img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                  p Лендинг строго по шаблону
+                  ul.price__list-info
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                  p.price__info от 20000 рублей
+              li.price__item
+                  img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                  p Лендинг строго по шаблону
+                  ul.price__list-info
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                  p.price__info от 20000 рублей
+              li.price__item
+                  img(src="http://lorempixel.com/150/150/cats" alt="alt")
+                  p Лендинг строго по шаблону
+                  ul.price__list-info
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                      li.price__item-info Какая то информация
+                  p.price__info от 20000 рублей
+          .text__wrap
+            button.btn.btn__price Заказать лендинг
+section(id="address" class="address")
+  .container
+      .row
+        .text__wrap
+            h2 Наши контакты
+        .map__wrap
+            #map
+            a(href="tel:+7928229933" class="phone") +7(812)311-99-99
+            address.address__info 194044 Санкт-Петербург Чугунная ул. д.14, лит Р, ОСК "АРГО" оф. 252
+        .form__wrap
+          p Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но выйти обеспечивает бросил текстами использовало переписали путь меня на берегу, он, буквоград которой заглавных рекламных?
+          form(name="input" action="/submit/form" method="POST" class="sendForm")
+            <!-- - Hidden input send form-->
+            input(type="hidden" name="project_name" value="Название сайта")
+            input(type="hidden" name="admin_email" value="ТУТ ДОЛЖЕН БЫТЬ ВАША ПОЧТА НА КОТОРЫЕ БУДУТ ПРИХОДИТЬ ЗАЯВКИ!!")
+            input(type="hidden" name="form_subject" value="Заявка на лендинг")
+            <!-- - End Hidden input send form-->
+            input(type="text" name="Name" placeholder="Ваше имя" class="inp")
+            input(type="email" name="Email" placeholder="Ваша Email" class="inp")
+            input(type="tel" name="telephone" placeholder="Ваш телефон" class="inp inp__phone")
+            textarea(rows="5" cols="45" name="message" placeholder="Ваше сообщения" class="inp inp__area")
+            input(type="reset" value="Очистить" class="btn__clear")
+            input(type="submit" value="Отправить" class="btn__send")
+footer.footer
+  .container
+    .row
+      .footer__wrap
+        span Пионер-WEB2016
+        a(href="#" class="up__scroll") Наверх 
+.popup
+  .b-close X
+  .h2 Закать лендинг 
+  form(name="input" action="/submit/form" method="POST" class="sendForm")
+    <!-- - Hidden input send form-->
+    input(type="hidden" name="project_name" value="Название сайта")
+    input(type="hidden" name="admin_email" value="ТУТ ДОЛЖЕН БЫТЬ ВАША ПОЧТА НА КОТОРЫЕ БУДУТ ПРИХОДИТЬ ЗАЯВКИ!!")
+    input(type="hidden" name="form_subject" value="Заявка на лендинг")
+    <!-- - End Hidden input send form-->
+    input(type="text" name="Name" placeholder="Ваше имя" class="inp")
+    input(type="email" name="Email" placeholder="Ваша Email" class="inp")
+    input(type="tel" name="telephone" placeholder="Ваш телефон" class="inp inp__phone")
+    textarea(rows="5" cols="45" name="message" placeholder="Ваше сообщения" class="inp inp__area")
+    input(type="reset" value="Очистить" class="btn__clear")
+    input(type="submit" value="Отправить" class="btn__send")

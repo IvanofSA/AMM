@@ -1,0 +1,90 @@
+.gallery__list{
+  @include make-lg-column-offset(1);
+  @include make-lg-column(10);
+  margin-bottom: 20px;
+  &:after {
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    content: "";
+    display: inline-block;
+  }
+}
+h2{
+  color: $orange;
+  font-family: $medium;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 25px 0;
+}
+.gallery__item{
+  display: inline-block;
+  width: 16%;
+  max-height: 500px;
+  overflow: hidden;
+  vertical-align: top;
+  list-style: none;
+  border: 1px solid #000;
+  margin: 0 15px 20px 15px;
+  text-align: left;
+  border-radius: 8px;
+  box-shadow: 5px 8px 5px #999;
+  a{
+    width: 100%;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    opacity: 0.7;
+  }
+  img:hover{
+    opacity: 1;
+  }
+}
+
+/*ссстилизуем магнифик попап*/
+.mfp-img {
+  max-height: none!important;
+  height: auto!important;
+}
+.mfp-bottom-bar{
+  top: 40px!important;
+}
+.mfp-counter {
+    top: 10px;
+    right: 46%;
+}
+/*конец*/
+
+.filter_contols{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.filter{
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: $medium;
+  border: 0;
+  background: none;
+  text-transform: uppercase;
+  color: #999;
+  position: relative;
+  padding: 0 30px;
+  outline: none;
+  &:hover{
+    color: $orange;
+  }
+}
+.active {
+  color: $orange;
+}
+.filter_contols button.active:after {
+  content: '';
+  border-bottom: 1px solid $orange;
+  display: block;
+}
+.filter_contols button:focus {
+  outline: 0 none;
+}

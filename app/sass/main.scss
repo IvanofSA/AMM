@@ -6,12 +6,26 @@
 
 @import "_variables";
 
+/* --------- grid --------- */
+
+@import "_grid";
+
 /* --------- fonts --------- */
 
-// @import "fonts";
+@import "fonts";
 
 /* --------- components --------- */
 
 @import "components/_common";
+@import "components/_adverstising";
+@import "components/_header";
+@import "components/_magnific";
+@import "components/_place";
+@import "components/_work";
+@import "components/_price";
+@import "components/_adress";
+@import "components/_footer";
 
+/* --------- media --------- */
 
+@import "_media";

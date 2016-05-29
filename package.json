@@ -1,15 +1,15 @@
 {
-  "name": "chat",
+  "name": "",
   "version": "1.0.0",
-  "description": "chat",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Sergey",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.7.12",
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
     "gulp-clean": "^0.3.1",
     "gulp-concat-css": "^2.2.0",
     "gulp-filter": "^2.0.2",

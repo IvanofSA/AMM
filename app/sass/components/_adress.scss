@@ -1,0 +1,51 @@
+.address{
+  padding: 0 30px 30px 30px;
+}
+.map__wrap{
+  @include make-lg-column-offset(1);
+  @include make-lg-column(5);
+}
+.form__wrap{
+  @include make-lg-column(5);
+}
+#map{
+  max-width: 100%;
+  min-height: 450px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.address__info{
+  font-size: 1em;
+  font-family: $light;
+  font-style: normal;
+}
+.inp{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  background: #d7d7d8;
+  color: #000;
+}
+.inp__area{
+  resize: none;
+  margin-bottom: 30px;
+}
+.btn__send{
+  @extend .btn;
+  position: static;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+.btn__clear{
+  @extend .btn;
+  position: static;
+  display: inline-block;
+  padding: 10px 30px;
+  background: #fff;
+  color: $orange;
+  border: 2px solid $orange;
+}

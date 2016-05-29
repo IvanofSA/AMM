@@ -1,0 +1,208 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	.logo__wrap{
+	  @include make-sm-column-offset(0);
+	  @include make-sm-column( 2 );
+	}
+	.logo{
+		margin-left: 30px;
+	}
+	.advertising__info {
+		height: 50%;
+	}
+}
+.gallery__list{
+  @include make-lg-column-offset(1);
+  @include make-lg-column(10);
+	display: block;
+}
+	/**/
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	.navigation{
+		display: none;
+	}
+	.toggle_mnu{
+		display: block;
+	}
+	.top_mnu{
+		.nav__list{
+			text-align: center;
+		}
+	}
+	.filter{
+		text-align: center;
+		padding: 0 10px;
+		font-size: 0.75em;
+	}
+	.advertising__info {
+    height: 60%;
+		padding: 10px;
+	}
+	.btn{
+		padding: 10px 15px;
+		font-size: 1em;
+	}
+	.advertising__info p {
+    margin-bottom: 15px;
+    font-size: 1em;
+	}
+	.advertising__info h3 {
+    font-size: 1.1em;
+		margin: 10px 0;
+	}
+	.phone {
+    font-family: "fira_sansmedium";
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+	.slick-dots{
+	  bottom: 20px;
+	}
+	.price__item-info {
+    font-size: 0.7em;
+		margin: 0 5px 0 5px;
+		overflow: hidden;
+	}
+	.price__item {
+		text-align: center;
+		overflow: hidden;
+		border-radius: 8px;
+		box-shadow: 4px 6px 9px #999;
+	}
+}
+	/**/
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	.toggle_mnu{
+		top: 20px;
+		right: 20px;
+	}
+	.advertising__info {
+		width: 90%;
+		height: 70%;
+	}
+	.btn{
+		margin-top: 5px;
+	}
+	.slick-dots{
+		bottom: 5px;
+		z-index: 1010;
+    text-align: center;
+	}
+	.filter {
+    margin-bottom: 10px;
+	}
+	.place__info {
+    background: none;
+    padding-left: 0;
+	}
+	.price__item {
+    width: 20%;
+    margin-bottom: 15px;
+	}
+	.popup{
+		left: 50%!important;
+		transform: translateX(-50%)!important;
+	}
+	.btn__clear{
+		padding: 10px 10px;
+		font-size: 0.85em;
+	}
+	.btn__send{
+		padding: 10px 10px;
+		font-size: 0.85em;
+		margin-left: 5px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	#map {
+	  min-height: 250px;
+	}
+	.price__item {
+    width: 30%;
+	}
+	.btn{
+    font-size: 0.8em;
+   }
+	 .place__item {
+    width: 30%;
+	}
+	.gallery__item {
+    width: 35%;
+	}
+	.filter {
+    display: block;
+    margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	h2 {
+    font-size: 1.4em;
+    margin: 15px 0;
+	}
+	.advertising__info {
+		padding: 5px;
+	}
+	.advertising__info p{
+		margin: 0;
+	}
+	.advertising__info h3 {
+		display: none;
+	}
+	.advertising__info .btn {
+		margin-top: 10px;
+	}
+	.popup {
+  	padding: 20px 20px 10px 20px;
+		.btn__clear{
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		.btn__send{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	.inp__area {
+    margin-bottom: 10px;
+	}
+}
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+
+}
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){}
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){}

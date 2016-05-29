@@ -1,52 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>chat</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico" type="icon/x-icon">
-    <link rel="icon" href="/favicon.ico" type="icon/x-icon">
-    <!-- build:css css/vendor.min.css -->
-    <!-- bower:css-->
-    <link rel="stylesheet" href="bower/normalize.css/normalize.css">
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css css/main.min.css -->
-    <link rel="stylesheet" href="css/main.css">
-    <!-- endbuild -->
-    <!-- build:js js/modernizr.min.js -->
-    <script src="bower/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-
   <body>
-    <div class="wrap">
-      <div class="container">
-        <aside class="list">
-          <header class="profile">
-            <div class="avatar my__avater">нет фото</div>
-            <div class="name my__name"><span class="name">Сергей Иванов</span></div>
-          </header>
-          <ul class="friend__list">
-            <li class="friend__item">
-              <div class="avatar">нет фото</div>
-              <div class="name"></div>
-            </li>
-          </ul>
-        </aside>
-      </div>
+    <div class="loader">
+      <div class="loader_inner"></div>
     </div>
+    <div class="wrap"></div>
     <!-- build:js js/vendor.js -->
     <!--bower:js-->
-    <script src="bower/modernizr/modernizr.js"></script>
-    <script src="bower/handlebars/handlebars.js"></script>
+    <script src="/bower/jquery/dist/jquery.js"></script>
+    <script src="/bower/html5shiv/dist/html5shiv.js"></script>
+    <script src="/bower/slick-carousel/slick/slick.js"></script>
     <!--endbower-->
     <!-- endbuild -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <!-- build:js js/main.js -->
+    <script src="js/bPopup.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="js/mask.js"></script>
     <script src="js/main.js"></script>
     <!-- endbuild -->
   </body>

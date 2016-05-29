@@ -16,12 +16,22 @@ var gulp        = require("gulp"),
 	concatCss   = require('gulp-concat-css'),
 	minifyCss   = require('gulp-minify-css'),
 	browserSync = require('browser-sync'),
+	// autoprefixer = require('gulp-autoprefixer'),
 	reload      = browserSync.reload;
 
 //*******************************************
 //*************** Обработка *****************
 //*******************************************
 
+
+// gulp.task('autoprefixer', function () {
+// 	return gulp.src('css/main.css')
+// 		.pipe(autoprefixer({
+// 			browsers: ['last 4 versions'],
+// 			cascade: false
+// 		}))
+// 		.pipe(gulp.dest('dist'));
+// });
 // Компилируем Jade в html
 gulp.task('jade', function() {
 	gulp.src('app/templates/pages/*.jade')
